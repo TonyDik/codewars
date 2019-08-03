@@ -3,14 +3,14 @@ package main.java.ru.abcconsulting;
 public class DigPow {
 
     public static long digPow(int n, int p) {
-        long sumOfDigitsInPower = DigPow.sumOfDigitsInPower(n, p);
+        long sum = DigPow.sumOfDigitsInPower(n, p);
         long k = 0;
 
         if (n != 0) {
-            k = sumOfDigitsInPower / n;
+            k = sum / n;
         }
 
-        if (k * n == sumOfDigitsInPower) {
+        if (k * n == sum) {
             return k;
         } else {
             return -1;
