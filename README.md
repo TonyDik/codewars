@@ -1,0 +1,1 @@
+Repository for my solutions on https://www.codewars.com/
